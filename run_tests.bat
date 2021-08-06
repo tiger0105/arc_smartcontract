@@ -1,0 +1,10 @@
+truffle exec univ\AGTUniv01.js >> logs\univ.txt
+truffle exec univ\AGTUniv02.js >> logs\univ.txt
+truffle exec univ\AGTUniv03.js >> logs\univ.txt
+truffle exec univ\AGTUniv04.js >> logs\univ.txt
+truffle exec univ\AGTUniv05.js >> logs\univ.txt
+truffle exec univ\AGTUniv06.js >> logs\univ.txt
+truffle exec univ\AGTUniv07.js >> logs\univ.txt
+truffle exec univ\AGTUniv08.js >> logs\univ.txt
+truffle exec univ\AGTUniv09.js >> logs\univ.txt
+truffle exec univ\AGTUniv10.js >> logs\univ.txt

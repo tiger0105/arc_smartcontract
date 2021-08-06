@@ -1,0 +1,108 @@
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle migrate -- reset
+> Warning: possible unsupported (undocumented in help) command line option: --
+
+Compiling your contracts...
+===========================
+Terminate batch job (Y/N)? Y
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\RoleTimeslots.sol
+> Compiling .\contracts\Rule.sol    
+> Compiling .\contracts\Timeslot.sol
+> Artifacts written to D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\build\contracts
+> Compiled successfully using:
+   - solc: 0.5.8+commit.23d335f2.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5777
+> Block gas limit: 0x6691b7
+
+
+1573348805_atrbac.js
+====================
+
+   Replacing 'Timeslot'
+   --------------------
+   > transaction hash:    0x63318b5d85475f4781ae91ebae66998b839a354994a21fc4f6d6efb9107d1e10
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xF8Ebb7F6fCA45D8a0234f4c1227BED100292ABeE
+   > block number:        8
+   > block timestamp:     1590167830
+   > account:             0xEfb0253E7842061CBe73D6a3ECc9BD310755631b
+   > balance:             99.88656508
+   > gas used:            69770
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0013954 ETH
+
+
+   Replacing 'RoleTimeslots'
+   -------------------------
+   > transaction hash:    0x6257605469b97c0d893e99e6e0054151b7e45cdb1ce25b2952f2375c7c9e1ce4
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xbCa6F15f773143aa38EF4F03f9980D7A447E63F4
+   > block number:        9
+   > block timestamp:     1590167830
+   > account:             0xEfb0253E7842061CBe73D6a3ECc9BD310755631b
+   > balance:             99.8824255
+   > gas used:            206979
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00413958 ETH
+
+
+   Replacing 'Rule'
+   ----------------
+   > transaction hash:    0x3ae3a1b93057ea125c6b11310b8956f0c16c3db37c5e3bfe6438d28c04432a50
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x396F5D5A1C83BDd61C73c36C6AF080a3e64A167d
+   > block number:        10
+   > block timestamp:     1590167830
+   > account:             0xEfb0253E7842061CBe73D6a3ECc9BD310755631b
+   > balance:             99.88102986
+   > gas used:            69782
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00139564 ETH
+
+
+   Linking
+   -------
+   * Contract: ATRBAC <--> Library: Timeslot (at address: 0xF8Ebb7F6fCA45D8a0234f4c1227BED100292ABeE)
+
+   Linking
+   -------
+   * Contract: ATRBAC <--> Library: RoleTimeslots (at address: 0xbCa6F15f773143aa38EF4F03f9980D7A447E63F4)
+
+   Replacing 'ATRBAC'
+   ------------------
+   > transaction hash:    0x3231ff5239fc6eeac52f0c5d5bfe423666bd23a1949f3c2c3499d1558f47f407
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x87bf4CeB450882180398EDBCEdBA243Bf60dfc1f
+   > block number:        11
+   > block timestamp:     1590167830
+   > account:             0xEfb0253E7842061CBe73D6a3ECc9BD310755631b
+   > balance:             99.7817823
+   > gas used:            4962378
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.09924756 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.10617818 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.10617818 ETH

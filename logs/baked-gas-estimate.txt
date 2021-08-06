@@ -1,0 +1,176 @@
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle console
+truffle(development)> var a01 = AGTUniv01;
+undefined
+truffle(development)> a01.new.estimateGas()
+Uncaught TypeError: a01.new.estimateGas is not a function
+truffle(development)> a01.new.estimateGas
+undefined
+truffle(development)> a01.new
+[Function: bound new]
+truffle(development)> a01.new.
+evalmachine.<anonymous>:2
+
+
+
+Uncaught SyntaxError: Unexpected end of input
+truffle(development)> a01.new.
+a01.new.__defineGetter__      a01.new.__defineSetter__      a01.new.__lookupGetter__      a01.new.__lookupSetter__      a01.new.__proto__
+a01.new.hasOwnProperty        a01.new.isPrototypeOf         a01.new.propertyIsEnumerable  a01.new.toLocaleString        a01.new.valueOf
+
+a01.new.apply                 a01.new.arguments             a01.new.bind                  a01.new.call                  a01.new.caller
+a01.new.constructor           a01.new.toString
+
+a01.new.length                a01.new.name
+
+truffle(development)> a01.new.
+a01.new.__defineGetter__      a01.new.__defineSetter__      a01.new.__lookupGetter__      a01.new.__lookupSetter__      a01.new.__proto__
+a01.new.hasOwnProperty        a01.new.isPrototypeOf         a01.new.propertyIsEnumerable  a01.new.toLocaleString        a01.new.valueOf
+
+a01.new.apply                 a01.new.arguments             a01.new.bind                  a01.new.call                  a01.new.caller
+a01.new.constructor           a01.new.toString
+
+a01.new.length                a01.new.name
+
+truffle(development)>
+(To exit, press ^C again or ^D or type .exit)
+truffle(development)>
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>node_modules\.bin\truffle
+Truffle v5.1.26 - a development framework for Ethereum
+
+Usage: truffle <command> [options]
+
+Commands:
+  build     Execute build pipeline (if configuration present)
+  compile   Compile contract source files
+  config    Set user-level configuration options
+  console   Run a console with contract abstractions and commands available
+  create    Helper to create new contracts, migrations and tests
+  debug     Interactively debug any transaction on the blockchain (experimental)
+  deploy    (alias for migrate)
+  develop   Open a console with a local development blockchain
+  exec      Execute a JS module within this Truffle environment
+  help      List all commands or provide information about a specific command
+  init      Initialize new and empty Ethereum project
+  networks  Show addresses for deployed contracts on each network
+  obtain    Fetch and cache a specified compiler
+  opcode    Print the compiled opcodes for a given contract
+  publish   Publish a package to the Ethereum Package Registry
+  run       Run a third-party command
+  test      Run JavaScript and Solidity tests
+  unbox     Download a Truffle Box, a pre-built Truffle project
+  version   Show version number and exit
+  watch     Watch filesystem for changes and rebuild the project automatically
+
+See more at http://truffleframework.com/docs
+
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>node_modules\.bin\truffle console
+truffle(development)> var a01 = AGTUniv01;                                                       e
+undefined
+truffle(development)> a01.new
+[Function: bound new] {
+  estimateGas: [Function: bound estimateDeployment]
+}
+truffle(development)> a01.new.estimateGas()
+42291721
+truffle(development)> var a07 = AGTUniv07;
+undefined
+truffle(development)> a07.new.estimateGas()
+147290341
+truffle(development)>
+truffle(development)> var a02 = AGTUniv02;
+undefined
+truffle(development)> var a03 = AGTUniv03;
+undefined
+truffle(development)> a02.new.estimateGas()
+32917668
+truffle(development)> a03.new.estimateGas()
+75101757
+truffle(development)> var a04 = AGTUniv04;
+undefined
+truffle(development)> a04.new.estimateGas()
+76342997
+truffle(development)> var a05 = AGTUniv05;
+undefined
+truffle(development)> a05.new.estimateGas()
+79908514
+truffle(development)> var a06 = AGTUniv06;
+undefined
+truffle(development)> a06.new.estimateGas()
+90026032
+truffle(development)> var a07 = AGTUniv07;
+undefined
+truffle(development)> a07.new.estimateGas()
+147290341
+truffle(development)> var a08 = AGTUniv08;
+evalmachine.<anonymous>:0
+var a08 = AGTUniv08;
+          ^
+
+Uncaught ReferenceError: AGTUniv08 is not defined
+    at evalmachine.<anonymous>:0:11
+    at sigintHandlersWrap (vm.js:274:15)
+    at Script.runInContext (vm.js:128:14)
+    at runScript (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\console.js:222:1)
+    at Console.interpret (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\console.js:237:1)
+    at ReplManager.interpret (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\repl.js:129:1)
+    at bound (domain.js:426:14)
+    at REPLServer.runBound [as eval] (domain.js:439:12)
+    at REPLServer.onLine (repl.js:758:10)
+    at REPLServer.emit (events.js:311:20)
+truffle(development)> var a08 = AGTUniv08;
+evalmachine.<anonymous>:0
+var a08 = AGTUniv08;
+          ^
+
+Uncaught ReferenceError: AGTUniv08 is not defined
+    at evalmachine.<anonymous>:0:11
+    at sigintHandlersWrap (vm.js:274:15)
+    at Script.runInContext (vm.js:128:14)
+    at runScript (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\console.js:222:1)
+    at Console.interpret (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\console.js:237:1)
+    at ReplManager.interpret (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\repl.js:129:1)
+    at bound (domain.js:426:14)
+    at REPLServer.runBound [as eval] (domain.js:439:12)
+    at REPLServer.onLine (repl.js:758:10)
+    at REPLServer.emit (events.js:311:20)
+truffle(development)> var a09 = AGTUniv09;
+evalmachine.<anonymous>:0
+var a09 = AGTUniv09;
+          ^
+
+Uncaught ReferenceError: AGTUniv09 is not defined
+    at evalmachine.<anonymous>:0:11
+    at sigintHandlersWrap (vm.js:274:15)
+    at Script.runInContext (vm.js:128:14)
+    at runScript (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\console.js:222:1)
+    at Console.interpret (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\console.js:237:1)
+    at ReplManager.interpret (D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract\node_modules\truffle\build\webpack:\packages\core\lib\repl.js:129:1)
+    at bound (domain.js:426:14)
+    at REPLServer.runBound [as eval] (domain.js:439:12)
+    at REPLServer.onLine (repl.js:758:10)
+    at REPLServer.emit (events.js:311:20)
+truffle(development)> var a10 = AGTUniv10;
+undefined
+truffle(development)> a10.new.estimateGas()
+150517292
+truffle(development)>
+(To exit, press ^C again or ^D or type .exit)
+truffle(development)>
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>node_modules\.bin\truffle console
+truffle(development)> var a08 = AGTUniv08;
+undefined
+truffle(development)> a08.new.estimateGas()
+148317445
+truffle(development)> var a09 = AGTUniv09;
+undefined
+truffle(development)> a09.new.estimateGas()
+191105053
+truffle(development)> var a10 = AGTUniv10;
+undefined
+truffle(development)> a10.new.estimateGas()
+187644737
+truffle(development)>

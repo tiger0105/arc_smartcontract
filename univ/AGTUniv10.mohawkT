@@ -1,0 +1,1051 @@
+/* Generated On        : 2015/09/16 23:39:47.494
+ * Generated With      : Mohawk Reverse Converter: ASAPTime NSA
+ * Number of Roles     : 31
+ * Number of Timeslots : 40
+ * Number of Rules     : 994
+ * 
+ * Roles     : |Size=31| [role12, role33, role11, role32, role10, role30, role4, role5, role2, role3, role19, role18, role17, role16, role15, role14, role13, role23, role22, role21, role20, role29, role28, role27, role26, ...]
+ * Timeslots : |Size=40| [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, ...]
+ * 
+ * 
+ * TESTCASE COMMENTS:
+ * 
+ */
+
+Query: t23, [role4]
+
+Expected: REACHABLE
+
+/* 
+ * Number of Rules       : 714
+ * Largest Precondition  : 5
+ * Largest Role Schedule : 1
+ * Startable Rules       : 72
+ * Truly Startable Rules : 17
+ */
+CanAssign {
+    /*   1 TA1Tru */  <TRUE, t12, TRUE, t31, role3>
+    /*   2 TA1Tru */  <TRUE, t31, TRUE, t34, role3>
+    /*   3 TA1Tru */  <TRUE, t9, TRUE, t20, role28>
+    /*   4 TA1Tru */  <TRUE, t11, TRUE, t6, role28>
+    /*   5 TA1Tru */  <TRUE, t7, TRUE, t36, role7>
+    /*   6 TA1Tru */  <TRUE, t31, TRUE, t27, role7>
+    /*   7 TA1Tru */  <TRUE, t32, TRUE, t40, role7>
+    /*   8 TA1Tru */  <TRUE, t3, TRUE, t34, role7>
+    /*   9 TA1Tru */  <TRUE, t9, TRUE, t22, role7>
+    /*  10 TA1Tru */  <TRUE, t4, TRUE, t13, role7>
+    /*  11 TA1Tru */  <TRUE, t29, TRUE, t5, role7>
+    /*  12 TA1Tru */  <TRUE, t22, TRUE, t13, role21>
+    /*  13 TA1Tru */  <TRUE, t22, TRUE, t26, role3>
+    /*  14 TA1Tru */  <TRUE, t14, TRUE, t12, role3>
+    /*  15 TA1Tru */  <TRUE, t3, TRUE, t4, role23>
+    /*  16 TA1Tru */  <TRUE, t4, TRUE, t38, role23>
+    /*  17 TA2Neg */  <TRUE, t2, NOT ~ role14, t6, role32>
+    /*  18 XA3Pos */  <TRUE, t3, role14, t4, role17>
+    /*  19 XA3Pos */  <TRUE, t9, role14, t1, role17>
+    /*  20 XA3Pos */  <TRUE, t34, role14, t27, role17>
+    /*  21 XA3Pos */  <TRUE, t33, role17, t31, role16>
+    /*  22 XA3Pos */  <TRUE, t18, role17, t21, role16>
+    /*  23 XA3Pos */  <TRUE, t26, role17, t14, role16>
+    /*  24 XA3Pos */  <TRUE, t14, role17, t19, role16>
+    /*  25 XA3Pos */  <TRUE, t37, role14, t27, role18>
+    /*  26 XA3Pos */  <TRUE, t4, role29, t30, role27>
+    /*  27 XA3Pos */  <TRUE, t3, role29, t23, role27>
+    /*  28 XA3Pos */  <TRUE, t1, role29, t24, role27>
+    /*  29 XA3Pos */  <TRUE, t37, role29, t28, role27>
+    /*  30 XA3Pos */  <TRUE, t18, role29, t20, role27>
+    /*  31 XA3Pos */  <TRUE, t36, role29, t33, role27>
+    /*  32 XA3Pos */  <TRUE, t33, role14, t15, role27>
+    /*  33 XA3Pos */  <TRUE, t36, role14, t10, role27>
+    /*  34 XA3Pos */  <TRUE, t20, role14, t6, role27>
+    /*  35 XA3Pos */  <TRUE, t22, role14, t38, role27>
+    /*  36 XA3Pos */  <TRUE, t23, role14, t12, role27>
+    /*  37 XA3Pos */  <TRUE, t16, role14, t35, role27>
+    /*  38 XA3Pos */  <TRUE, t25, role32, t13, role27>
+    /*  39 XA3Pos */  <TRUE, t40, role14, t6, role33>
+    /*  40 XA3Pos */  <TRUE, t23, role32, t36, role33>
+    /*  41 XA3Pos */  <TRUE, t30, role32, t27, role33>
+    /*  42 XA3Pos */  <TRUE, t32, role32, t40, role33>
+    /*  43 XA3Pos */  <TRUE, t12, role2, t27, role5>
+    /*  44 XA3Pos */  <TRUE, t35, role2, t29, role5>
+    /*  45 XA3Pos */  <TRUE, t32, role2, t19, role5>
+    /*  46 XA3Pos */  <TRUE, t28, role2, t13, role5>
+    /*  47 XA3Pos */  <TRUE, t39, role2, t3, role5>
+    /*  48 XA3Pos */  <TRUE, t5, role22, t2, role5>
+    /*  49 XA3Pos */  <TRUE, t39, role22, t35, role5>
+    /*  50 XA3Pos */  <TRUE, t20, role22, t22, role5>
+    /*  51 XA3Pos */  <TRUE, t2, role22, t1, role5>
+    /*  52 XA3Pos */  <TRUE, t13, role22, t3, role5>
+    /*  53 XA3Pos */  <TRUE, t31, role24, t40, role5>
+    /*  54 XA3Pos */  <TRUE, t34, role24, t12, role5>
+    /*  55 XA3Pos */  <TRUE, t22, role24, t33, role5>
+    /*  56 XA3Pos */  <TRUE, t33, role24, t13, role5>
+    /*  57 XA3Pos */  <TRUE, t10, role7, t22, role5>
+    /*  58 XA3Pos */  <TRUE, t33, role28, t15, role5>
+    /*  59 XA3Pos */  <TRUE, t12, role3, t34, role16>
+    /*  60 XA3Pos */  <TRUE, t29, role3, t40, role16>
+    /*  61 XA3Pos */  <TRUE, t30, role3, t2, role16>
+    /*  62 XA3Pos */  <TRUE, t2, role4, t23, role16>
+    /*  63 XA3Pos */  <TRUE, t30, role22, t28, role16>
+    /*  64 XA3Pos */  <TRUE, t3, role21, t33, role16>
+    /*  65 XA3Pos */  <TRUE, t22, role21, t13, role16>
+    /*  66 XA3Pos */  <TRUE, t10, role21, t40, role16>
+    /*  67 XA3Pos */  <TRUE, t11, role21, t7, role16>
+    /*  68 XA3Pos */  <TRUE, t16, role21, t22, role16>
+    /*  69 XA3Pos */  <TRUE, t17, role21, t23, role16>
+    /*  70 XA3Pos */  <TRUE, t40, role21, t12, role16>
+    /*  71 XA3Pos */  <TRUE, t5, role21, t20, role16>
+    /*  72 XA3Pos */  <TRUE, t16, role6, t7, role16>
+    /*  73 XA3Pos */  <TRUE, t3, role6, t24, role16>
+    /*  74 XA3Pos */  <TRUE, t12, role6, t28, role16>
+    /*  75 XA3Pos */  <TRUE, t24, role24, t4, role16>
+    /*  76 XA3Pos */  <TRUE, t20, role24, t9, role16>
+    /*  77 XA3Pos */  <TRUE, t29, role23, t3, role16>
+    /*  78 XA3Pos */  <TRUE, t35, role8, t25, role16>
+    /*  79 XA3Pos */  <TRUE, t16, role8, t1, role16>
+    /*  80 XA3Pos */  <TRUE, t30, role8, t36, role16>
+    /*  81 XA3Pos */  <TRUE, t29, role8, t27, role16>
+    /*  82 XA3Pos */  <TRUE, t32, role12, t25, role16>
+    /*  83 XA3Pos */  <TRUE, t8, role12, t21, role16>
+    /*  84 XA3Pos */  <TRUE, t3, role12, t32, role16>
+    /*  85 XA3Pos */  <TRUE, t29, role4, t31, role10>
+    /*  86 XA3Pos */  <TRUE, t40, role4, t19, role10>
+    /*  87 XA3Pos */  <TRUE, t9, role4, t29, role10>
+    /*  88 XA3Pos */  <TRUE, t37, role4, t32, role10>
+    /*  89 XA3Pos */  <TRUE, t4, role6, t39, role10>
+    /*  90 XA3Pos */  <TRUE, t9, role8, t3, role10>
+    /*  91 XA3Pos */  <TRUE, t22, role8, t32, role10>
+    /*  92 XA3Pos */  <TRUE, t26, role8, t27, role10>
+    /*  93 XA3Pos */  <TRUE, t36, role8, t38, role10>
+    /*  94 XA3Pos */  <TRUE, t33, role9, t17, role10>
+    /*  95 XA3Pos */  <TRUE, t14, role9, t25, role10>
+    /*  96 XA3Pos */  <TRUE, t15, role9, t27, role10>
+    /*  97 XA3Pos */  <TRUE, t31, role9, t40, role10>
+    /*  98 XA3Pos */  <TRUE, t7, role9, t33, role10>
+    /*  99 XA3Pos */  <TRUE, t38, role9, t14, role10>
+    /* 100 XA3Pos */  <TRUE, t14, role12, t26, role10>
+    /* 101 XA3Pos */  <TRUE, t17, role12, t22, role10>
+    /* 102 XA3Pos */  <TRUE, t2, role12, t10, role10>
+    /* 103 XA3Pos */  <TRUE, t35, role21, t11, role10>
+    /* 104 XA3Pos */  <TRUE, t2, role21, t38, role10>
+    /* 105 XA3Pos */  <TRUE, t19, role21, t15, role10>
+    /* 106 XA3Pos */  <TRUE, t5, role24, t22, role10>
+    /* 107 XA3Pos */  <TRUE, t34, role24, t18, role10>
+    /* 108 XA3Pos */  <TRUE, t21, role23, t23, role10>
+    /* 109 XA3Pos */  <TRUE, t11, role23, t33, role10>
+    /* 110 XA3Pos */  <TRUE, t17, role23, t19, role10>
+    /* 111 XA3Pos */  <TRUE, t5, role23, t12, role10>
+    /* 112 XA3Pos */  <TRUE, t18, role23, t24, role10>
+    /* 113 XA3Pos */  <TRUE, t19, role23, t14, role10>
+    /* 114 XA3Pos */  <TRUE, t15, role23, t9, role10>
+    /* 115 XA3Pos */  <TRUE, t20, role28, t22, role10>
+    /* 116 XA3Pos */  <TRUE, t32, role22, t23, role11>
+    /* 117 XA3Pos */  <TRUE, t30, role22, t30, role11>
+    /* 118 XA3Pos */  <TRUE, t13, role6, t18, role11>
+    /* 119 XA3Pos */  <TRUE, t6, role6, t13, role11>
+    /* 120 XA3Pos */  <TRUE, t11, role23, t6, role11>
+    /* 121 XA3Pos */  <TRUE, t8, role23, t4, role22>
+    /* 122 XA3Pos */  <TRUE, t22, role23, t8, role11>
+    /* 123 XA3Pos */  <TRUE, t5, role23, t2, role11>
+    /* 124 XA3Pos */  <TRUE, t20, role12, t16, role11>
+    /* 125 XA3Pos */  <TRUE, t21, role12, t3, role11>
+    /* 126 XA4Mix */  <TRUE, t20, role22 & NOT ~ role15, t13, role2>
+    /* 127 XA4Mix */  <TRUE, t21, role22 & NOT ~ role15, t20, role2>
+    /* 128 XA4Mix */  <TRUE, t22, role24 & NOT ~ role15, t39, role2>
+    /* 129 XA4Mix */  <TRUE, t35, role24 & NOT ~ role15, t22, role2>
+    /* 130 XA4Mix */  <TRUE, t11, role24 & NOT ~ role15, t26, role2>
+    /* 131 XA4Mix */  <TRUE, t24, role24 & NOT ~ role15, t20, role2>
+    /* 132 XA4Mix */  <TRUE, t6, role24 & NOT ~ role15, t16, role2>
+    /* 133 XA4Mix */  <TRUE, t14, role7 & NOT ~ role15, t30, role2>
+    /* 134 XA4Mix */  <TRUE, t7, role7 & NOT ~ role15, t7, role2>
+    /* 135 XA4Mix */  <TRUE, t10, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t28, role15>
+    /* 136 XA4Mix */  <TRUE, t39, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t8, role15>
+    /* 137 XA4Mix */  <TRUE, t11, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t38, role15>
+    /* 138 XA4Mix */  <TRUE, t8, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t39, role15>
+    /* 139 XA4Mix */  <TRUE, t25, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t34, role15>
+    /* 140 XA4Mix */  <TRUE, t1, role21 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t31, role15>
+    /* 141 XA4Mix */  <TRUE, t16, role21 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t10, role15>
+    /* 142 XA4Mix */  <TRUE, t32, role21 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t40, role15>
+    /* 143 XA4Mix */  <TRUE, t8, role21 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t7, role15>
+    /* 144 XA4Mix */  <TRUE, t2, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t32, role15>
+    /* 145 XA4Mix */  <TRUE, t38, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t9, role15>
+    /* 146 XA4Mix */  <TRUE, t33, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t15, role15>
+    /* 147 XA4Mix */  <TRUE, t10, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t12, role15>
+    /* 148 XA4Mix */  <TRUE, t11, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t21, role15>
+    /* 149 XA4Mix */  <TRUE, t2, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t23, role15>
+    /* 150 XA4Mix */  <TRUE, t6, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t3, role15>
+    /* 151 XA4Mix */  <TRUE, t19, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t1, role15>
+    /* 152 XA4Mix */  <TRUE, t27, role8 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t12, role15>
+    /* 153 XA4Mix */  <TRUE, t11, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t35, role15>
+    /* 154 XA4Mix */  <TRUE, t4, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t34, role15>
+    /* 155 XA4Mix */  <TRUE, t35, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t7, role6>
+    /* 156 XA4Mix */  <TRUE, t25, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t4, role6>
+    /* 157 XA4Mix */  <TRUE, t26, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t10, role8>
+    /* 158 XA4Mix */  <TRUE, t29, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t7, role8>
+    /* 159 XX1Tru */  <role22, t28, TRUE, t30, role3>
+    /* 160 XX1Tru */  <role22, t26, TRUE, t32, role3>
+    /* 161 XX1Tru */  <role22, t14, TRUE, t34, role28>
+    /* 162 XX1Tru */  <role22, t32, TRUE, t31, role28>
+    /* 163 XX1Tru */  <role22, t15, TRUE, t9, role28>
+    /* 164 XX1Tru */  <role22, t2, TRUE, t38, role28>
+    /* 165 XX1Tru */  <role22, t10, TRUE, t3, role28>
+    /* 166 XX1Tru */  <role22, t33, TRUE, t35, role28>
+    /* 167 XX1Tru */  <role22, t2, TRUE, t10, role7>
+    /* 168 XX1Tru */  <role22, t38, TRUE, t32, role7>
+    /* 169 XX1Tru */  <role22, t20, TRUE, t14, role7>
+    /* 170 XX1Tru */  <role22, t40, TRUE, t31, role7>
+    /* 171 XX1Tru */  <role22, t17, TRUE, t38, role7>
+    /* 172 XX1Tru */  <role22, t34, TRUE, t24, role7>
+    /* 173 XX1Tru */  <role22, t35, TRUE, t28, role7>
+    /* 174 XX1Tru */  <role22, t1, TRUE, t15, role7>
+    /* 175 XX1Tru */  <role22, t39, TRUE, t7, role7>
+    /* 176 XX1Tru */  <role22, t36, TRUE, t11, role7>
+    /* 177 XX1Tru */  <role22, t22, TRUE, t12, role7>
+    /* 178 XX1Tru */  <role22, t25, TRUE, t33, role7>
+    /* 179 XX1Tru */  <role22, t33, TRUE, t30, role7>
+    /* 180 XX1Tru */  <role22, t19, TRUE, t8, role7>
+    /* 181 XX1Tru */  <role22, t17, TRUE, t18, role21>
+    /* 182 XX1Tru */  <role22, t24, TRUE, t2, role3>
+    /* 183 XX1Tru */  <role22, t25, TRUE, t38, role3>
+    /* 184 XX1Tru */  <role22, t28, TRUE, t22, role4>
+    /* 185 XX1Tru */  <role22, t12, TRUE, t20, role4>
+    /* 186 XX1Tru */  <role22, t25, TRUE, t27, role4>
+    /* 187 XX1Tru */  <role22, t31, TRUE, t33, role4>
+    /* 188 XX1Tru */  <role22, t33, TRUE, t32, role4>
+    /* 189 XX1Tru */  <role22, t4, TRUE, t23, role4>
+    /* 190 XX1Tru */  <role22, t13, TRUE, t1, role4>
+    /* 191 XX1Tru */  <role22, t22, TRUE, t40, role4>
+    /* 192 XX1Tru */  <role22, t10, TRUE, t24, role4>
+    /* 193 XX1Tru */  <role22, t5, TRUE, t28, role4>
+    /* 194 XX1Tru */  <role22, t35, TRUE, t11, role4>
+    /* 195 XX1Tru */  <role22, t38, TRUE, t12, role4>
+    /* 196 XX1Tru */  <role22, t20, TRUE, t35, role4>
+    /* 197 XX1Tru */  <role2, t9, TRUE, t23, role4>
+    /* 198 XX1Tru */  <role22, t17, TRUE, t3, role4>
+    /* 199 XX1Tru */  <role22, t40, TRUE, t4, role4>
+    /* 200 XX1Tru */  <role22, t18, TRUE, t13, role4>
+    /* 201 XX1Tru */  <role22, t6, TRUE, t19, role4>
+    /* 202 XX1Tru */  <role22, t15, TRUE, t14, role4>
+    /* 203 XX1Tru */  <role22, t7, TRUE, t6, role4>
+    /* 204 XX1Tru */  <role22, t23, TRUE, t15, role4>
+    /* 205 XX1Tru */  <role22, t19, TRUE, t2, role4>
+    /* 206 XX1Tru */  <role22, t21, TRUE, t26, role4>
+    /* 207 XX1Tru */  <role22, t14, TRUE, t21, role4>
+    /* 208 XX2Neg */  <role2, t29, NOT ~ role14, t16, role32>
+    /* 209 XX2Neg */  <role2, t6, NOT ~ role14, t27, role32>
+    /* 210 XX2Neg */  <role2, t4, NOT ~ role14, t10, role32>
+    /* 211 XX2Neg */  <role2, t22, NOT ~ role14, t15, role32>
+    /* 212 XX2Neg */  <role2, t40, NOT ~ role14, t13, role32>
+    /* 213 XX2Neg */  <role2, t18, NOT ~ role14, t7, role32>
+    /* 214 XX3Pos */  <role8, t23, role14, t33, role30>
+    /* 215 XX3Pos */  <role8, t9, role14, t25, role30>
+    /* 216 XX3Pos */  <role8, t15, role14, t10, role30>
+    /* 217 XX3Pos */  <role8, t40, role14, t38, role17>
+    /* 218 XX3Pos */  <role8, t38, role14, t18, role17>
+    /* 219 XX3Pos */  <role8, t1, role14, t13, role17>
+    /* 220 XX3Pos */  <role8, t2, role14, t21, role17>
+    /* 221 XX3Pos */  <role8, t33, role14, t20, role17>
+    /* 222 XX3Pos */  <role8, t5, role14, t5, role17>
+    /* 223 XX3Pos */  <role8, t29, role14, t14, role17>
+    /* 224 XX3Pos */  <role8, t4, role14, t6, role17>
+    /* 225 XX3Pos */  <role8, t8, role14, t16, role17>
+    /* 226 XX3Pos */  <role8, t24, role14, t19, role17>
+    /* 227 XX3Pos */  <role8, t16, role14, t30, role17>
+    /* 228 XX3Pos */  <role8, t15, role14, t22, role17>
+    /* 229 XX3Pos */  <role8, t39, role14, t23, role17>
+    /* 230 XX3Pos */  <role8, t31, role14, t15, role17>
+    /* 231 XX3Pos */  <role8, t22, role14, t39, role17>
+    /* 232 XX3Pos */  <role8, t6, role14, t26, role17>
+    /* 233 XX3Pos */  <role8, t37, role14, t29, role17>
+    /* 234 XX3Pos */  <role8, t35, role17, t36, role16>
+    /* 235 XX3Pos */  <role8, t23, role17, t30, role16>
+    /* 236 XX3Pos */  <role8, t15, role17, t11, role16>
+    /* 237 XX3Pos */  <role8, t38, role17, t40, role16>
+    /* 238 XX3Pos */  <role8, t16, role17, t8, role16>
+    /* 239 XX3Pos */  <role8, t6, role17, t25, role16>
+    /* 240 XX3Pos */  <role8, t28, role17, t15, role16>
+    /* 241 XX3Pos */  <role8, t40, role17, t37, role16>
+    /* 242 XX3Pos */  <role8, t36, role17, t32, role16>
+    /* 243 XX3Pos */  <role8, t11, role17, t22, role16>
+    /* 244 XX3Pos */  <role8, t12, role17, t1, role16>
+    /* 245 XX3Pos */  <role8, t3, role17, t12, role16>
+    /* 246 XX3Pos */  <role8, t19, role17, t38, role16>
+    /* 247 XX3Pos */  <role8, t29, role17, t7, role16>
+    /* 248 XX3Pos */  <role8, t4, role17, t16, role16>
+    /* 249 XX3Pos */  <role8, t32, role17, t17, role16>
+    /* 250 XX3Pos */  <role8, t17, role17, t4, role16>
+    /* 251 XX3Pos */  <role8, t5, role17, t9, role16>
+    /* 252 XX3Pos */  <role8, t7, role17, t33, role16>
+    /* 253 XX3Pos */  <role7, t4, role9, t23, role4>
+    /* 254 XX3Pos */  <role8, t26, role14, t29, role18>
+    /* 255 XX3Pos */  <role8, t40, role14, t23, role18>
+    /* 256 XX3Pos */  <role8, t21, role14, t24, role18>
+    /* 257 XX3Pos */  <role8, t32, role14, t9, role18>
+    /* 258 XX3Pos */  <role8, t1, role14, t4, role18>
+    /* 259 XX3Pos */  <role8, t31, role14, t25, role18>
+    /* 260 XX3Pos */  <role8, t33, role14, t34, role18>
+    /* 261 XX3Pos */  <role8, t9, role14, t22, role18>
+    /* 262 XX3Pos */  <role8, t34, role14, t20, role18>
+    /* 263 XX3Pos */  <role8, t15, role14, t11, role18>
+    /* 264 XX3Pos */  <role8, t35, role14, t26, role18>
+    /* 265 XX3Pos */  <role8, t5, role14, t40, role18>
+    /* 266 XX3Pos */  <role8, t36, role14, t31, role18>
+    /* 267 XX3Pos */  <role8, t26, role32, t39, role18>
+    /* 268 XX3Pos */  <role8, t36, role32, t1, role18>
+    /* 269 XX3Pos */  <role12, t26, role29, t32, role27>
+    /* 270 XX3Pos */  <role12, t10, role29, t22, role27>
+    /* 271 XX3Pos */  <role12, t6, role29, t25, role27>
+    /* 272 XX3Pos */  <role12, t33, role29, t26, role27>
+    /* 273 XX3Pos */  <role12, t28, role29, t36, role27>
+    /* 274 XX3Pos */  <role12, t32, role29, t40, role27>
+    /* 275 XX3Pos */  <role12, t38, role29, t3, role27>
+    /* 276 XX3Pos */  <role12, t30, role29, t27, role27>
+    /* 277 XX3Pos */  <role12, t27, role29, t9, role27>
+    /* 278 XX3Pos */  <role12, t17, role29, t31, role27>
+    /* 279 XX3Pos */  <role12, t34, role29, t4, role27>
+    /* 280 XX3Pos */  <role12, t19, role29, t35, role27>
+    /* 281 XX3Pos */  <role12, t13, role29, t18, role27>
+    /* 282 XX3Pos */  <role12, t39, role29, t21, role27>
+    /* 283 XX3Pos */  <role12, t35, role29, t34, role27>
+    /* 284 XX3Pos */  <role12, t2, role29, t29, role27>
+    /* 285 XX3Pos */  <role12, t27, role14, t25, role27>
+    /* 286 XX3Pos */  <role12, t11, role14, t20, role27>
+    /* 287 XX3Pos */  <role12, t15, role14, t2, role27>
+    /* 288 XX3Pos */  <role12, t34, role14, t39, role27>
+    /* 289 XX3Pos */  <role12, t19, role14, t8, role27>
+    /* 290 XX3Pos */  <role12, t25, role14, t34, role27>
+    /* 291 XX3Pos */  <role12, t13, role14, t5, role27>
+    /* 292 XX3Pos */  <role12, t21, role14, t30, role27>
+    /* 293 XX3Pos */  <role12, t18, role14, t31, role27>
+    /* 294 XX3Pos */  <role12, t14, role14, t33, role27>
+    /* 295 XX3Pos */  <role12, t35, role14, t37, role27>
+    /* 296 XX3Pos */  <role12, t17, role14, t18, role27>
+    /* 297 XX3Pos */  <role12, t38, role32, t20, role27>
+    /* 298 XX3Pos */  <role12, t11, role32, t25, role27>
+    /* 299 XX3Pos */  <role12, t19, role32, t28, role27>
+    /* 300 XX3Pos */  <role12, t20, role32, t33, role27>
+    /* 301 XX3Pos */  <role12, t27, role14, t23, role4>
+    /* 302 XX3Pos */  <role12, t27, role14, t29, role33>
+    /* 303 XX3Pos */  <role12, t18, role14, t7, role33>
+    /* 304 XX3Pos */  <role12, t40, role32, t23, role33>
+    /* 305 XX3Pos */  <role12, t36, role32, t15, role33>
+    /* 306 XX3Pos */  <role12, t33, role32, t20, role33>
+    /* 307 XX3Pos */  <role12, t17, role32, t16, role33>
+    /* 308 XX3Pos */  <role12, t26, role32, t33, role33>
+    /* 309 XX3Pos */  <role12, t21, role32, t24, role33>
+    /* 310 XX3Pos */  <role12, t28, role32, t17, role33>
+    /* 311 XX3Pos */  <role12, t11, role32, t14, role33>
+    /* 312 XX3Pos */  <role12, t1, role32, t39, role33>
+    /* 313 XX3Pos */  <role12, t2, role32, t18, role33>
+    /* 314 XX3Pos */  <role12, t37, role32, t28, role33>
+    /* 315 XX3Pos */  <role12, t14, role32, t34, role33>
+    /* 316 XX3Pos */  <role12, t14, role32, t23, role4>
+    /* 317 XX3Pos */  <role12, t12, role32, t8, role33>
+    /* 318 XX3Pos */  <role12, t31, role32, t6, role33>
+    /* 319 XX3Pos */  <role12, t29, role32, t3, role33>
+    /* 320 XX3Pos */  <role12, t13, role32, t25, role33>
+    /* 321 XX3Pos */  <role12, t15, role32, t29, role33>
+    /* 322 XX3Pos */  <role12, t22, role32, t13, role33>
+    /* 323 XX3Pos */  <role12, t3, role32, t19, role33>
+    /* 324 XX3Pos */  <role12, t10, role32, t4, role33>
+    /* 325 XX3Pos */  <role12, t4, role32, t7, role33>
+    /* 326 XX3Pos */  <role12, t24, role32, t9, role33>
+    /* 327 XX3Pos */  <role6, t13, role2, t18, role5>
+    /* 328 XX3Pos */  <role6, t7, role2, t34, role5>
+    /* 329 XX3Pos */  <role6, t33, role2, t36, role5>
+    /* 330 XX3Pos */  <role6, t20, role2, t39, role5>
+    /* 331 XX3Pos */  <role6, t15, role2, t35, role5>
+    /* 332 XX3Pos */  <role6, t14, role2, t11, role5>
+    /* 333 XX3Pos */  <role6, t17, role2, t9, role5>
+    /* 334 XX3Pos */  <role6, t16, role2, t33, role5>
+    /* 335 XX3Pos */  <role6, t36, role2, t20, role5>
+    /* 336 XX3Pos */  <role6, t8, role2, t12, role5>
+    /* 337 XX3Pos */  <role6, t18, role2, t37, role5>
+    /* 338 XX3Pos */  <role6, t2, role2, t38, role5>
+    /* 339 XX3Pos */  <role6, t34, role2, t21, role5>
+    /* 340 XX3Pos */  <role6, t37, role2, t14, role5>
+    /* 341 XX3Pos */  <role6, t19, role2, t5, role5>
+    /* 342 XX3Pos */  <role6, t21, role2, t8, role5>
+    /* 343 XX3Pos */  <role6, t22, role2, t10, role5>
+    /* 344 XX3Pos */  <role6, t38, role2, t16, role5>
+    /* 345 XX3Pos */  <role6, t30, role2, t22, role5>
+    /* 346 XX3Pos */  <role6, t40, role2, t6, role5>
+    /* 347 XX3Pos */  <role6, t16, role22, t30, role5>
+    /* 348 XX3Pos */  <role6, t19, role22, t29, role5>
+    /* 349 XX3Pos */  <role6, t40, role22, t38, role5>
+    /* 350 XX3Pos */  <role6, t32, role22, t17, role5>
+    /* 351 XX3Pos */  <role6, t1, role22, t24, role5>
+    /* 352 XX3Pos */  <role6, t10, role24, t22, role5>
+    /* 353 XX3Pos */  <role6, t17, role24, t11, role5>
+    /* 354 XX3Pos */  <role6, t3, role24, t28, role5>
+    /* 355 XX3Pos */  <role6, t30, role24, t9, role5>
+    /* 356 XX3Pos */  <role6, t2, role24, t31, role5>
+    /* 357 XX3Pos */  <role6, t15, role24, t10, role5>
+    /* 358 XX3Pos */  <role6, t32, role24, t34, role5>
+    /* 359 XX3Pos */  <role6, t20, role24, t3, role5>
+    /* 360 XX3Pos */  <role6, t24, role7, t10, role5>
+    /* 361 XX3Pos */  <role6, t40, role7, t9, role5>
+    /* 362 XX3Pos */  <role6, t19, role28, t14, role5>
+    /* 363 XX3Pos */  <role6, t38, role28, t23, role5>
+    /* 364 XX3Pos */  <role6, t39, role28, t22, role5>
+    /* 365 XX3Pos */  <role6, t20, role28, t37, role5>
+    /* 366 XX3Pos */  <role6, t5, role28, t34, role5>
+    /* 367 XX3Pos */  <role6, t34, role28, t3, role5>
+    /* 368 XX3Pos */  <role6, t21, role28, t33, role5>
+    /* 369 XX3Pos */  <role6, t25, role28, t27, role5>
+    /* 370 XX3Pos */  <role6, t35, role28, t30, role5>
+    /* 371 XX3Pos */  <role6, t30, role28, t35, role5>
+    /* 372 XX3Pos */  <role8, t25, role3, t15, role16>
+    /* 373 XX3Pos */  <role8, t37, role3, t33, role16>
+    /* 374 XX3Pos */  <role8, t19, role3, t10, role16>
+    /* 375 XX3Pos */  <role8, t18, role3, t36, role16>
+    /* 376 XX3Pos */  <role8, t1, role3, t37, role16>
+    /* 377 XX3Pos */  <role8, t27, role3, t11, role16>
+    /* 378 XX3Pos */  <role8, t26, role3, t12, role16>
+    /* 379 XX3Pos */  <role8, t38, role3, t38, role16>
+    /* 380 XX3Pos */  <role8, t9, role3, t13, role16>
+    /* 381 XX3Pos */  <role8, t20, role3, t35, role16>
+    /* 382 XX3Pos */  <role8, t24, role3, t39, role16>
+    /* 383 XX3Pos */  <role8, t6, role3, t1, role16>
+    /* 384 XX3Pos */  <role8, t22, role4, t6, role16>
+    /* 385 XX3Pos */  <role8, t23, role4, t33, role16>
+    /* 386 XX3Pos */  <role8, t21, role4, t37, role16>
+    /* 387 XX3Pos */  <role8, t30, role4, t16, role16>
+    /* 388 XX3Pos */  <role8, t24, role4, t30, role16>
+    /* 389 XX3Pos */  <role8, t29, role4, t8, role16>
+    /* 390 XX3Pos */  <role8, t31, role4, t13, role16>
+    /* 391 XX3Pos */  <role8, t25, role4, t18, role16>
+    /* 392 XX3Pos */  <role8, t5, role4, t22, role16>
+    /* 393 XX3Pos */  <role8, t34, role4, t3, role16>
+    /* 394 XX3Pos */  <role8, t3, role4, t14, role16>
+    /* 395 XX3Pos */  <role8, t39, role4, t4, role16>
+    /* 396 XX3Pos */  <role8, t6, role4, t28, role16>
+    /* 397 XX3Pos */  <role8, t31, role22, t29, role16>
+    /* 398 XX3Pos */  <role8, t20, role22, t8, role16>
+    /* 399 XX3Pos */  <role8, t15, role22, t24, role16>
+    /* 400 XX3Pos */  <role8, t18, role21, t36, role16>
+    /* 401 XX3Pos */  <role8, t39, role21, t19, role16>
+    /* 402 XX3Pos */  <role8, t7, role21, t28, role16>
+    /* 403 XX3Pos */  <role8, t20, role21, t3, role16>
+    /* 404 XX3Pos */  <role8, t34, role21, t5, role16>
+    /* 405 XX3Pos */  <role8, t9, role21, t6, role16>
+    /* 406 XX3Pos */  <role8, t8, role21, t14, role16>
+    /* 407 XX3Pos */  <role8, t12, role21, t15, role16>
+    /* 408 XX3Pos */  <role8, t24, role21, t30, role16>
+    /* 409 XX3Pos */  <role8, t28, role21, t8, role16>
+    /* 410 XX3Pos */  <role8, t4, role21, t17, role16>
+    /* 411 XX3Pos */  <role8, t13, role21, t4, role16>
+    /* 412 XX3Pos */  <role8, t21, role21, t29, role16>
+    /* 413 XX3Pos */  <role8, t34, role6, t32, role16>
+    /* 414 XX3Pos */  <role8, t9, role6, t6, role16>
+    /* 415 XX3Pos */  <role8, t7, role6, t31, role16>
+    /* 416 XX3Pos */  <role8, t35, role6, t8, role16>
+    /* 417 XX3Pos */  <role8, t11, role6, t14, role16>
+    /* 418 XX3Pos */  <role8, t36, role6, t27, role16>
+    /* 419 XX3Pos */  <role8, t22, role6, t17, role16>
+    /* 420 XX3Pos */  <role8, t40, role6, t35, role16>
+    /* 421 XX3Pos */  <role8, t2, role6, t9, role16>
+    /* 422 XX3Pos */  <role8, t39, role6, t10, role16>
+    /* 423 XX3Pos */  <role8, t37, role6, t16, role16>
+    /* 424 XX3Pos */  <role8, t38, role6, t33, role16>
+    /* 425 XX3Pos */  <role8, t21, role6, t29, role16>
+    /* 426 XX3Pos */  <role8, t33, role6, t21, role16>
+    /* 427 XX3Pos */  <role8, t1, role6, t34, role16>
+    /* 428 XX3Pos */  <role8, t17, role6, t11, role16>
+    /* 429 XX3Pos */  <role8, t31, role6, t26, role16>
+    /* 430 XX3Pos */  <role8, t23, role6, t36, role16>
+    /* 431 XX3Pos */  <role8, t8, role6, t18, role16>
+    /* 432 XX3Pos */  <role8, t4, role6, t30, role16>
+    /* 433 XX3Pos */  <role8, t10, role6, t13, role16>
+    /* 434 XX3Pos */  <role8, t20, role6, t37, role16>
+    /* 435 XX3Pos */  <role8, t31, role24, t40, role16>
+    /* 436 XX3Pos */  <role8, t25, role24, t10, role16>
+    /* 437 XX3Pos */  <role8, t33, role24, t5, role16>
+    /* 438 XX3Pos */  <role8, t2, role24, t37, role16>
+    /* 439 XX3Pos */  <role8, t14, role24, t27, role16>
+    /* 440 XX3Pos */  <role8, t35, role24, t39, role16>
+    /* 441 XX3Pos */  <role8, t39, role24, t31, role16>
+    /* 442 XX3Pos */  <role8, t9, role24, t15, role16>
+    /* 443 XX3Pos */  <role8, t3, role24, t28, role16>
+    /* 444 XX3Pos */  <role8, t2, role23, t14, role16>
+    /* 445 XX3Pos */  <role8, t39, role23, t38, role16>
+    /* 446 XX3Pos */  <role8, t17, role23, t17, role16>
+    /* 447 XX3Pos */  <role8, t30, role23, t6, role16>
+    /* 448 XX3Pos */  <role8, t24, role23, t40, role16>
+    /* 449 XX3Pos */  <role8, t14, role23, t39, role16>
+    /* 450 XX3Pos */  <role8, t15, role23, t29, role16>
+    /* 451 XX3Pos */  <role8, t7, role23, t1, role16>
+    /* 452 XX3Pos */  <role8, t13, role23, t2, role16>
+    /* 453 XX3Pos */  <role8, t35, role23, t13, role16>
+    /* 454 XX3Pos */  <role8, t23, role23, t18, role16>
+    /* 455 XX3Pos */  <role8, t4, role23, t36, role16>
+    /* 456 XX3Pos */  <role8, t33, role23, t4, role16>
+    /* 457 XX3Pos */  <role8, t36, role23, t5, role16>
+    /* 458 XX3Pos */  <role8, t26, role23, t34, role16>
+    /* 459 XX3Pos */  <role8, t5, role8, t23, role16>
+    /* 460 XX3Pos */  <role8, t3, role8, t30, role16>
+    /* 461 XX3Pos */  <role8, t6, role8, t33, role16>
+    /* 462 XX3Pos */  <role8, t28, role8, t5, role16>
+    /* 463 XX3Pos */  <role8, t13, role8, t40, role16>
+    /* 464 XX3Pos */  <role8, t27, role8, t28, role16>
+    /* 465 XX3Pos */  <role8, t8, role8, t10, role16>
+    /* 466 XX3Pos */  <role8, t39, role8, t2, role16>
+    /* 467 XX3Pos */  <role8, t29, role12, t37, role16>
+    /* 468 XX3Pos */  <role8, t2, role12, t23, role16>
+    /* 469 XX3Pos */  <role8, t18, role12, t27, role16>
+    /* 470 XX3Pos */  <role8, t10, role12, t35, role16>
+    /* 471 XX3Pos */  <role8, t37, role12, t10, role16>
+    /* 472 XX3Pos */  <role8, t28, role12, t6, role16>
+    /* 473 XX3Pos */  <role8, t7, role12, t28, role16>
+    /* 474 XX3Pos */  <role8, t30, role12, t36, role16>
+    /* 475 XX3Pos */  <role8, t1, role12, t19, role16>
+    /* 476 XX3Pos */  <role8, t15, role12, t40, role16>
+    /* 477 XX3Pos */  <role8, t4, role12, t7, role16>
+    /* 478 XX3Pos */  <role8, t5, role12, t38, role16>
+    /* 479 XX3Pos */  <role8, t11, role4, t12, role10>
+    /* 480 XX3Pos */  <role8, t22, role4, t4, role10>
+    /* 481 XX3Pos */  <role8, t26, role4, t9, role10>
+    /* 482 XX3Pos */  <role8, t15, role4, t33, role10>
+    /* 483 XX3Pos */  <role8, t16, role4, t7, role10>
+    /* 484 XX3Pos */  <role8, t34, role4, t26, role10>
+    /* 485 XX3Pos */  <role8, t8, role4, t28, role10>
+    /* 486 XX3Pos */  <role8, t30, role4, t14, role10>
+    /* 487 XX3Pos */  <role8, t27, role4, t17, role10>
+    /* 488 XX3Pos */  <role8, t39, role4, t23, role10>
+    /* 489 XX3Pos */  <role8, t11, role6, t10, role10>
+    /* 490 XX3Pos */  <role8, t14, role6, t24, role10>
+    /* 491 XX3Pos */  <role8, t24, role6, t40, role10>
+    /* 492 XX3Pos */  <role8, t30, role6, t22, role10>
+    /* 493 XX3Pos */  <role8, t6, role6, t1, role10>
+    /* 494 XX3Pos */  <role8, t8, role6, t20, role10>
+    /* 495 XX3Pos */  <role8, t23, role6, t33, role10>
+    /* 496 XX3Pos */  <role8, t27, role6, t26, role10>
+    /* 497 XX3Pos */  <role8, t39, role6, t6, role10>
+    /* 498 XX3Pos */  <role8, t3, role6, t37, role10>
+    /* 499 XX3Pos */  <role8, t36, role7, t3, role10>
+    /* 500 XX3Pos */  <role8, t20, role7, t1, role10>
+    /* 501 XX3Pos */  <role8, t21, role8, t34, role10>
+    /* 502 XX3Pos */  <role8, t13, role8, t2, role10>
+    /* 503 XX3Pos */  <role8, t27, role8, t4, role10>
+    /* 504 XX3Pos */  <role8, t19, role8, t12, role10>
+    /* 505 XX3Pos */  <role8, t34, role8, t13, role10>
+    /* 506 XX3Pos */  <role8, t23, role8, t20, role10>
+    /* 507 XX3Pos */  <role8, t15, role8, t5, role10>
+    /* 508 XX3Pos */  <role8, t29, role8, t14, role10>
+    /* 509 XX3Pos */  <role8, t3, role8, t21, role10>
+    /* 510 XX3Pos */  <role8, t25, role8, t35, role10>
+    /* 511 XX3Pos */  <role8, t35, role8, t15, role10>
+    /* 512 XX3Pos */  <role8, t30, role8, t33, role10>
+    /* 513 XX3Pos */  <role8, t5, role8, t16, role10>
+    /* 514 XX3Pos */  <role8, t17, role8, t17, role10>
+    /* 515 XX3Pos */  <role8, t6, role8, t36, role10>
+    /* 516 XX3Pos */  <role8, t38, role8, t11, role10>
+    /* 517 XX3Pos */  <role8, t24, role8, t37, role10>
+    /* 518 XX3Pos */  <role8, t14, role8, t26, role10>
+    /* 519 XX3Pos */  <role8, t29, role9, t19, role10>
+    /* 520 XX3Pos */  <role8, t5, role9, t7, role10>
+    /* 521 XX3Pos */  <role8, t30, role9, t13, role10>
+    /* 522 XX3Pos */  <role8, t1, role9, t39, role10>
+    /* 523 XX3Pos */  <role8, t39, role9, t31, role10>
+    /* 524 XX3Pos */  <role8, t32, role9, t20, role10>
+    /* 525 XX3Pos */  <role8, t27, role9, t2, role10>
+    /* 526 XX3Pos */  <role8, t13, role9, t1, role10>
+    /* 527 XX3Pos */  <role8, t19, role9, t34, role10>
+    /* 528 XX3Pos */  <role8, t2, role9, t32, role10>
+    /* 529 XX3Pos */  <role8, t24, role9, t24, role10>
+    /* 530 XX3Pos */  <role8, t16, role9, t38, role10>
+    /* 531 XX3Pos */  <role8, t36, role9, t37, role10>
+    /* 532 XX3Pos */  <role8, t34, role9, t18, role10>
+    /* 533 XX3Pos */  <role8, t25, role9, t28, role10>
+    /* 534 XX3Pos */  <role8, t11, role9, t3, role10>
+    /* 535 XX3Pos */  <role8, t22, role9, t29, role10>
+    /* 536 XX3Pos */  <role8, t40, role9, t10, role10>
+    /* 537 XX3Pos */  <role8, t36, role12, t8, role10>
+    /* 538 XX3Pos */  <role8, t35, role12, t3, role10>
+    /* 539 XX3Pos */  <role8, t14, role22, t8, role10>
+    /* 540 XX3Pos */  <role8, t13, role22, t32, role10>
+    /* 541 XX3Pos */  <role8, t31, role22, t29, role10>
+    /* 542 XX3Pos */  <role8, t20, role22, t33, role10>
+    /* 543 XX3Pos */  <role8, t9, role22, t25, role10>
+    /* 544 XX3Pos */  <role8, t36, role22, t24, role10>
+    /* 545 XX3Pos */  <role8, t29, role21, t19, role10>
+    /* 546 XX3Pos */  <role8, t24, role21, t9, role10>
+    /* 547 XX3Pos */  <role8, t12, role21, t33, role10>
+    /* 548 XX3Pos */  <role8, t8, role21, t36, role10>
+    /* 549 XX3Pos */  <role8, t39, role21, t27, role10>
+    /* 550 XX3Pos */  <role8, t22, role21, t14, role10>
+    /* 551 XX3Pos */  <role8, t31, role21, t7, role10>
+    /* 552 XX3Pos */  <role8, t13, role21, t8, role10>
+    /* 553 XX3Pos */  <role8, t9, role21, t26, role10>
+    /* 554 XX3Pos */  <role8, t4, role21, t37, role10>
+    /* 555 XX3Pos */  <role8, t15, role21, t10, role10>
+    /* 556 XX3Pos */  <role8, t14, role21, t1, role10>
+    /* 557 XX3Pos */  <role8, t16, role21, t12, role10>
+    /* 558 XX3Pos */  <role8, t37, role24, t16, role10>
+    /* 559 XX3Pos */  <role8, t22, role24, t28, role10>
+    /* 560 XX3Pos */  <role8, t38, role24, t29, role10>
+    /* 561 XX3Pos */  <role8, t4, role24, t38, role10>
+    /* 562 XX3Pos */  <role8, t20, role24, t39, role10>
+    /* 563 XX3Pos */  <role8, t15, role24, t33, role10>
+    /* 564 XX3Pos */  <role8, t31, role24, t37, role10>
+    /* 565 XX3Pos */  <role8, t21, role24, t35, role10>
+    /* 566 XX3Pos */  <role8, t6, role24, t4, role10>
+    /* 567 XX3Pos */  <role8, t37, role23, t3, role10>
+    /* 568 XX3Pos */  <role8, t16, role23, t25, role10>
+    /* 569 XX3Pos */  <role8, t22, role23, t17, role10>
+    /* 570 XX3Pos */  <role8, t27, role23, t32, role10>
+    /* 571 XX3Pos */  <role8, t7, role23, t21, role10>
+    /* 572 XX3Pos */  <role8, t34, role23, t26, role10>
+    /* 573 XX3Pos */  <role8, t1, role23, t5, role10>
+    /* 574 XX3Pos */  <role8, t35, role23, t40, role10>
+    /* 575 XX3Pos */  <role8, t36, role23, t38, role10>
+    /* 576 XX3Pos */  <role8, t28, role23, t31, role10>
+    /* 577 XX3Pos */  <role8, t8, role23, t1, role10>
+    /* 578 XX3Pos */  <role8, t10, role23, t30, role10>
+    /* 579 XX3Pos */  <role8, t25, role23, t27, role10>
+    /* 580 XX3Pos */  <role8, t38, role28, t38, role10>
+    /* 581 XX3Pos */  <role8, t18, role28, t31, role10>
+    /* 582 XX3Pos */  <role8, t37, role28, t35, role10>
+    /* 583 XX3Pos */  <role8, t19, role28, t18, role10>
+    /* 584 XX3Pos */  <role8, t7, role28, t28, role10>
+    /* 585 XX3Pos */  <role8, t8, role22, t38, role11>
+    /* 586 XX3Pos */  <role8, t4, role22, t36, role11>
+    /* 587 XX3Pos */  <role8, t3, role22, t1, role11>
+    /* 588 XX3Pos */  <role8, t17, role21, t23, role11>
+    /* 589 XX3Pos */  <role8, t24, role21, t31, role11>
+    /* 590 XX3Pos */  <role8, t38, role6, t28, role11>
+    /* 591 XX3Pos */  <role8, t40, role6, t22, role11>
+    /* 592 XX3Pos */  <role8, t20, role6, t33, role11>
+    /* 593 XX3Pos */  <role8, t18, role6, t7, role11>
+    /* 594 XX3Pos */  <role8, t33, role6, t31, role11>
+    /* 595 XX3Pos */  <role8, t14, role6, t5, role11>
+    /* 596 XX3Pos */  <role8, t16, role6, t34, role11>
+    /* 597 XX3Pos */  <role8, t5, role6, t11, role11>
+    /* 598 XX3Pos */  <role8, t20, role24, t25, role11>
+    /* 599 XX3Pos */  <role8, t21, role23, t29, role11>
+    /* 600 XX3Pos */  <role8, t24, role23, t11, role11>
+    /* 601 XX3Pos */  <role8, t12, role23, t28, role11>
+    /* 602 XX3Pos */  <role8, t31, role23, t19, role11>
+    /* 603 XX3Pos */  <role8, t3, role23, t32, role11>
+    /* 604 XX3Pos */  <role8, t34, role23, t40, role11>
+    /* 605 XX3Pos */  <role8, t13, role23, t30, role11>
+    /* 606 XX3Pos */  <role8, t28, role23, t34, role11>
+    /* 607 XX3Pos */  <role8, t35, role23, t13, role11>
+    /* 608 XX3Pos */  <role8, t19, role23, t1, role11>
+    /* 609 XX3Pos */  <role8, t5, role12, t14, role11>
+    /* 610 XX3Pos */  <role8, t1, role12, t24, role11>
+    /* 611 XX3Pos */  <role8, t33, role12, t33, role11>
+    /* 612 XX3Pos */  <role8, t2, role12, t17, role11>
+    /* 613 XX3Pos */  <role8, t26, role12, t39, role11>
+    /* 614 XX3Pos */  <role8, t35, role12, t4, role11>
+    /* 615 XX4Mix */  <role7, t37, role22 & NOT ~ role15, t24, role2>
+    /* 616 XX4Mix */  <role7, t38, role22 & NOT ~ role15, t25, role2>
+    /* 617 XX4Mix */  <role7, t15, role22 & NOT ~ role15, t5, role2>
+    /* 618 XX4Mix */  <role7, t29, role22 & NOT ~ role15, t12, role2>
+    /* 619 XX4Mix */  <role7, t40, role22 & NOT ~ role15, t31, role2>
+    /* 620 XX4Mix */  <role7, t23, role22 & NOT ~ role15, t7, role2>
+    /* 621 XX4Mix */  <role7, t31, role22 & NOT ~ role15, t27, role2>
+    /* 622 XX4Mix */  <role7, t33, role24 & NOT ~ role15, t13, role2>
+    /* 623 XX4Mix */  <role7, t38, role24 & NOT ~ role15, t30, role2>
+    /* 624 XX4Mix */  <role7, t10, role24 & NOT ~ role15, t40, role2>
+    /* 625 XX4Mix */  <role7, t37, role24 & NOT ~ role15, t2, role2>
+    /* 626 XX4Mix */  <role7, t28, role24 & NOT ~ role15, t38, role2>
+    /* 627 XX4Mix */  <role7, t4, role24 & NOT ~ role15, t1, role2>
+    /* 628 XX4Mix */  <role7, t25, role24 & NOT ~ role15, t14, role2>
+    /* 629 XX4Mix */  <role7, t32, role24 & NOT ~ role15, t34, role2>
+    /* 630 XX4Mix */  <role7, t14, role24 & NOT ~ role15, t9, role2>
+    /* 631 XX4Mix */  <role7, t18, role24 & NOT ~ role15, t25, role2>
+    /* 632 XX4Mix */  <role7, t27, role24 & NOT ~ role15, t8, role2>
+    /* 633 XX4Mix */  <role7, t34, role24 & NOT ~ role15, t6, role2>
+    /* 634 XX4Mix */  <role7, t8, role24 & NOT ~ role15, t31, role2>
+    /* 635 XX4Mix */  <role7, t26, role24 & NOT ~ role15, t32, role2>
+    /* 636 XX4Mix */  <role7, t19, role24 & NOT ~ role15, t15, role2>
+    /* 637 XX4Mix */  <role7, t20, role24 & NOT ~ role15, t3, role2>
+    /* 638 XX4Mix */  <role7, t39, role24 & NOT ~ role15, t27, role2>
+    /* 639 XX4Mix */  <role7, t3, role24 & NOT ~ role15, t10, role2>
+    /* 640 XX4Mix */  <role7, t29, role24 & NOT ~ role15, t17, role2>
+    /* 641 XX4Mix */  <role7, t28, role7 & NOT ~ role15, t40, role2>
+    /* 642 XX4Mix */  <role7, t36, role7 & NOT ~ role15, t13, role2>
+    /* 643 XX4Mix */  <role7, t4, role7 & NOT ~ role15, t22, role2>
+    /* 644 XX4Mix */  <role7, t9, role28 & NOT ~ role15, t28, role2>
+    /* 645 XX4Mix */  <role7, t8, role28 & NOT ~ role15, t22, role2>
+    /* 646 XX4Mix */  <role8, t9, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t17, role15>
+    /* 647 XX4Mix */  <role8, t24, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t6, role15>
+    /* 648 XX4Mix */  <role8, t12, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t1, role15>
+    /* 649 XX4Mix */  <role8, t40, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t11, role15>
+    /* 650 XX4Mix */  <role8, t34, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t37, role15>
+    /* 651 XX4Mix */  <role8, t35, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t32, role15>
+    /* 652 XX4Mix */  <role8, t38, role3 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t33, role15>
+    /* 653 XX4Mix */  <role8, t31, role4 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t37, role15>
+    /* 654 XX4Mix */  <role8, t7, role21 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t19, role15>
+    /* 655 XX4Mix */  <role8, t28, role21 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t30, role15>
+    /* 656 XX4Mix */  <role8, t17, role21 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t17, role15>
+    /* 657 XX4Mix */  <role8, t20, role21 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t1, role15>
+    /* 658 XX4Mix */  <role8, t40, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t6, role15>
+    /* 659 XX4Mix */  <role8, t39, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t17, role15>
+    /* 660 XX4Mix */  <role8, t13, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t8, role15>
+    /* 661 XX4Mix */  <role8, t10, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t13, role15>
+    /* 662 XX4Mix */  <role8, t37, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t29, role15>
+    /* 663 XX4Mix */  <role8, t19, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t5, role15>
+    /* 664 XX4Mix */  <role8, t24, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t30, role15>
+    /* 665 XX4Mix */  <role8, t17, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t36, role15>
+    /* 666 XX4Mix */  <role8, t31, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t39, role15>
+    /* 667 XX4Mix */  <role8, t14, role6 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t12, role15>
+    /* 668 XX4Mix */  <role8, t3, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t34, role15>
+    /* 669 XX4Mix */  <role8, t7, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t33, role15>
+    /* 670 XX4Mix */  <role8, t25, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t2, role15>
+    /* 671 XX4Mix */  <role8, t27, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t19, role15>
+    /* 672 XX4Mix */  <role8, t20, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t28, role15>
+    /* 673 XX4Mix */  <role8, t9, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t20, role15>
+    /* 674 XX4Mix */  <role8, t38, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t35, role15>
+    /* 675 XX4Mix */  <role8, t39, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t9, role15>
+    /* 676 XX4Mix */  <role8, t22, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t4, role15>
+    /* 677 XX4Mix */  <role8, t18, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t6, role15>
+    /* 678 XX4Mix */  <role8, t26, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t27, role15>
+    /* 679 XX4Mix */  <role8, t28, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t36, role15>
+    /* 680 XX4Mix */  <role8, t12, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t32, role15>
+    /* 681 XX4Mix */  <role8, t24, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t37, role15>
+    /* 682 XX4Mix */  <role8, t21, role23 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t38, role15>
+    /* 683 XX4Mix */  <role8, t3, role8 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t6, role15>
+    /* 684 XX4Mix */  <role8, t3, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t5, role15>
+    /* 685 XX4Mix */  <role8, t7, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t22, role15>
+    /* 686 XX4Mix */  <role8, t14, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t2, role15>
+    /* 687 XX4Mix */  <role8, t12, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t29, role15>
+    /* 688 XX4Mix */  <role8, t40, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t25, role15>
+    /* 689 XX4Mix */  <role8, t23, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t39, role15>
+    /* 690 XX4Mix */  <role8, t30, role12 & NOT ~ role2 & NOT ~ role7 & NOT ~ role22 & NOT ~ role24, t40, role15>
+    /* 691 XX4Mix */  <role24, t4, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t17, role6>
+    /* 692 XX4Mix */  <role24, t26, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t20, role6>
+    /* 693 XX4Mix */  <role24, t17, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t25, role6>
+    /* 694 XX4Mix */  <role24, t15, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t23, role6>
+    /* 695 XX4Mix */  <role24, t27, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t22, role6>
+    /* 696 XX4Mix */  <role24, t31, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t8, role6>
+    /* 697 XX4Mix */  <role24, t32, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t15, role6>
+    /* 698 XX4Mix */  <role24, t28, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t24, role6>
+    /* 699 XX4Mix */  <role24, t34, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t26, role6>
+    /* 700 XX4Mix */  <role24, t14, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t27, role6>
+    /* 701 XX4Mix */  <role24, t18, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t29, role6>
+    /* 702 XX4Mix */  <role24, t11, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t31, role6>
+    /* 703 XX4Mix */  <role24, t10, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t32, role6>
+    /* 704 XX4Mix */  <role6, t28, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t31, role8>
+    /* 705 XX4Mix */  <role6, t13, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t24, role8>
+    /* 706 XX4Mix */  <role6, t14, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t40, role8>
+    /* 707 XX4Mix */  <role6, t33, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t30, role8>
+    /* 708 XX4Mix */  <role6, t11, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t22, role8>
+    /* 709 XX4Mix */  <role6, t27, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t11, role8>
+    /* 710 XX4Mix */  <role6, t30, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t29, role8>
+    /* 711 XX4Mix */  <role6, t34, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t8, role8>
+    /* 712 XX4Mix */  <role6, t21, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t25, role8>
+    /* 713 XX4Mix */  <role6, t19, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t33, role8>
+    /* 714 XX4Mix */  <role6, t35, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t5, role8>
+}
+
+/* 
+ * Number of Rules       : 14
+ * Largest Precondition  : 0
+ * Largest Role Schedule : 1
+ * Startable Rules       : 14
+ * Truly Startable Rules : 2
+ */
+CanRevoke {
+    /*  1 TA1Tru */  <TRUE, t16, TRUE, t33, role30>
+    /*  2 TA1Tru */  <TRUE, t12, TRUE, t7, role3>
+    /*  3 XX1Tru */  <role6, t17, TRUE, t7, role32>
+    /*  4 XX1Tru */  <role6, t37, TRUE, t37, role32>
+    /*  5 XX1Tru */  <role6, t34, TRUE, t31, role32>
+    /*  6 XX1Tru */  <role8, t3, TRUE, t18, role30>
+    /*  7 XX1Tru */  <role8, t5, TRUE, t14, role30>
+    /*  8 XX1Tru */  <role8, t36, TRUE, t17, role30>
+    /*  9 XX1Tru */  <role8, t18, TRUE, t20, role30>
+    /* 10 XX1Tru */  <role8, t15, TRUE, t3, role30>
+    /* 11 XX1Tru */  <role8, t12, TRUE, t39, role30>
+    /* 12 XX1Tru */  <role22, t40, TRUE, t38, role21>
+    /* 13 XX1Tru */  <role22, t24, TRUE, t34, role3>
+    /* 14 XX1Tru */  <role22, t10, TRUE, t18, role3>
+}
+
+/* 
+ * Number of Rules       : 168
+ * Largest Precondition  : 4
+ * Largest Role Schedule : 1
+ * Startable Rules       : 76
+ * Truly Startable Rules : 13
+ */
+CanEnable {
+    /*   1 TA1Tru */  <TRUE, t18, TRUE, t4, role17>
+    /*   2 TA1Tru */  <TRUE, t26, TRUE, t34, role18>
+    /*   3 TA1Tru */  <TRUE, t21, TRUE, t8, role18>
+    /*   4 TA1Tru */  <TRUE, t34, TRUE, t19, role33>
+    /*   5 TA1Tru */  <TRUE, t4, TRUE, t4, role22>
+    /*   6 TA1Tru */  <TRUE, t21, TRUE, t27, role16>
+    /*   7 TA1Tru */  <TRUE, t15, TRUE, t33, role25>
+    /*   8 TA1Tru */  <TRUE, t19, TRUE, t27, role7>
+    /*   9 TA1Tru */  <TRUE, t23, TRUE, t18, role23>
+    /*  10 TA1Tru */  <TRUE, t37, TRUE, t1, role23>
+    /*  11 TA1Tru */  <TRUE, t27, TRUE, t35, role23>
+    /*  12 TA1Tru */  <TRUE, t12, TRUE, t31, role3>
+    /*  13 TA1Tru */  <TRUE, t30, TRUE, t40, role23>
+    /*  14 XA3Pos */  <TRUE, t18, role23, t24, role10>
+    /*  15 XA3Pos */  <TRUE, t20, role28, t22, role10>
+    /*  16 XA3Pos */  <TRUE, t11, role23, t6, role11>
+    /*  17 XA3Pos */  <TRUE, t12, role22, t23, role25>
+    /*  18 XA3Pos */  <TRUE, t2, role22, t22, role25>
+    /*  19 XA3Pos */  <TRUE, t27, role16, t9, role26>
+    /*  20 XA3Pos */  <TRUE, t23, role16, t30, role26>
+    /*  21 XA3Pos */  <TRUE, t3, role3, t11, role13>
+    /*  22 XA3Pos */  <TRUE, t18, role4, t4, role13>
+    /*  23 XA3Pos */  <TRUE, t5, role6, t37, role13>
+    /*  24 XA3Pos */  <TRUE, t13, role7, t25, role13>
+    /*  25 XA3Pos */  <TRUE, t8, role9, t15, role13>
+    /*  26 XA3Pos */  <TRUE, t19, role9, t39, role13>
+    /*  27 XA3Pos */  <TRUE, t29, role24, t25, role13>
+    /*  28 XA3Pos */  <TRUE, t27, role28, t1, role13>
+    /*  29 XA4Mix */  <TRUE, t25, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t4, role6>
+    /*  30 XX1Tru */  <role8, t15, TRUE, t3, role30>
+    /*  31 XX1Tru */  <role8, t19, TRUE, t7, role30>
+    /*  32 XX1Tru */  <role8, t24, TRUE, t1, role17>
+    /*  33 XX1Tru */  <role8, t6, TRUE, t10, role16>
+    /*  34 XX1Tru */  <role8, t27, TRUE, t31, role18>
+    /*  35 XX1Tru */  <role8, t40, TRUE, t27, role18>
+    /*  36 XX1Tru */  <role19, t11, TRUE, t16, role20>
+    /*  37 XX1Tru */  <role19, t18, TRUE, t4, role20>
+    /*  38 XX1Tru */  <role19, t9, TRUE, t22, role20>
+    /*  39 XX1Tru */  <role19, t28, TRUE, t6, role20>
+    /*  40 XX1Tru */  <role12, t6, TRUE, t22, role33>
+    /*  41 XX1Tru */  <role12, t8, TRUE, t4, role33>
+    /*  42 XX1Tru */  <role7, t30, TRUE, t10, role2>
+    /*  43 XX1Tru */  <role7, t17, TRUE, t34, role2>
+    /*  44 XX1Tru */  <role7, t36, TRUE, t35, role2>
+    /*  45 XX1Tru */  <role8, t13, TRUE, t7, role15>
+    /*  46 XX1Tru */  <role8, t24, TRUE, t39, role19>
+    /*  47 XX1Tru */  <role8, t28, TRUE, t1, role10>
+    /*  48 XX1Tru */  <role8, t5, TRUE, t2, role25>
+    /*  49 XX1Tru */  <role8, t40, TRUE, t1, role25>
+    /*  50 XX1Tru */  <role8, t1, TRUE, t15, role25>
+    /*  51 XX1Tru */  <role8, t4, TRUE, t7, role25>
+    /*  52 XX1Tru */  <role8, t12, TRUE, t16, role25>
+    /*  53 XX1Tru */  <role8, t14, TRUE, t2, role26>
+    /*  54 XX1Tru */  <role8, t20, TRUE, t19, role26>
+    /*  55 XX1Tru */  <role22, t28, TRUE, t28, role28>
+    /*  56 XX1Tru */  <role22, t40, TRUE, t33, role28>
+    /*  57 XX1Tru */  <role22, t35, TRUE, t38, role28>
+    /*  58 XX1Tru */  <role22, t16, TRUE, t21, role7>
+    /*  59 XX1Tru */  <role22, t10, TRUE, t18, role3>
+    /*  60 XX1Tru */  <role22, t9, TRUE, t21, role3>
+    /*  61 XX1Tru */  <role22, t13, TRUE, t15, role3>
+    /*  62 XX1Tru */  <role22, t8, TRUE, t6, role3>
+    /*  63 XX1Tru */  <role22, t30, TRUE, t17, role3>
+    /*  64 XX1Tru */  <role22, t19, TRUE, t16, role3>
+    /*  65 XX1Tru */  <role22, t5, TRUE, t1, role4>
+    /*  66 XX1Tru */  <role22, t5, TRUE, t30, role23>
+    /*  67 XX1Tru */  <role22, t40, TRUE, t20, role13>
+    /*  68 XX1Tru */  <role22, t24, TRUE, t26, role13>
+    /*  69 XX1Tru */  <role22, t29, TRUE, t27, role24>
+    /*  70 XX1Tru */  <role22, t19, TRUE, t2, role24>
+    /*  71 XX1Tru */  <role22, t15, TRUE, t17, role24>
+    /*  72 XX1Tru */  <role22, t18, TRUE, t10, role24>
+    /*  73 XX1Tru */  <role22, t34, TRUE, t19, role24>
+    /*  74 XX1Tru */  <role22, t10, TRUE, t12, role24>
+    /*  75 XX1Tru */  <role6, t7, TRUE, t33, role8>
+    /*  76 XX1Tru */  <role22, t6, TRUE, t21, role23>
+    /*  77 XX1Tru */  <role22, t5, TRUE, t8, role28>
+    /*  78 XX1Tru */  <role22, t16, TRUE, t7, role21>
+    /*  79 XX1Tru */  <role22, t39, TRUE, t7, role3>
+    /*  80 XX1Tru */  <role22, t22, TRUE, t2, role3>
+    /*  81 XX1Tru */  <role22, t28, TRUE, t30, role3>
+    /*  82 XX1Tru */  <role22, t26, TRUE, t32, role3>
+    /*  83 XX1Tru */  <role22, t27, TRUE, t10, role3>
+    /*  84 XX1Tru */  <role22, t13, TRUE, t25, role3>
+    /*  85 XX1Tru */  <role22, t40, TRUE, t11, role4>
+    /*  86 XX1Tru */  <role22, t11, TRUE, t24, role4>
+    /*  87 XX1Tru */  <role22, t34, TRUE, t29, role4>
+    /*  88 XX1Tru */  <role22, t30, TRUE, t36, role4>
+    /*  89 XX1Tru */  <role22, t14, TRUE, t34, role28>
+    /*  90 XX1Tru */  <role22, t32, TRUE, t31, role28>
+    /*  91 XX1Tru */  <role22, t33, TRUE, t35, role28>
+    /*  92 XX1Tru */  <role22, t2, TRUE, t10, role7>
+    /*  93 XX3Pos */  <role8, t37, role23, t3, role10>
+    /*  94 XX3Pos */  <role8, t22, role23, t17, role10>
+    /*  95 XX3Pos */  <role8, t7, role23, t21, role10>
+    /*  96 XX3Pos */  <role8, t1, role23, t5, role10>
+    /*  97 XX3Pos */  <role8, t8, role23, t1, role10>
+    /*  98 XX3Pos */  <role8, t4, role28, t39, role10>
+    /*  99 XX3Pos */  <role8, t27, role3, t12, role11>
+    /* 100 XX3Pos */  <role8, t36, role4, t19, role11>
+    /* 101 XX3Pos */  <role8, t38, role6, t28, role11>
+    /* 102 XX3Pos */  <role8, t18, role6, t7, role11>
+    /* 103 XX3Pos */  <role8, t14, role6, t5, role11>
+    /* 104 XX3Pos */  <role8, t5, role6, t11, role11>
+    /* 105 XX3Pos */  <role8, t24, role23, t11, role11>
+    /* 106 XX3Pos */  <role8, t25, role23, t3, role11>
+    /* 107 XX3Pos */  <role8, t13, role8, t3, role11>
+    /* 108 XX3Pos */  <role8, t31, role8, t34, role11>
+    /* 109 XX3Pos */  <role8, t38, role12, t36, role11>
+    /* 110 XX3Pos */  <role8, t34, role12, t25, role11>
+    /* 111 XX3Pos */  <role8, t18, role12, t9, role11>
+    /* 112 XX3Pos */  <role8, t40, role12, t38, role11>
+    /* 113 XX3Pos */  <role8, t16, role12, t26, role11>
+    /* 114 XX3Pos */  <role8, t17, role3, t39, role25>
+    /* 115 XX3Pos */  <role8, t27, role3, t1, role25>
+    /* 116 XX3Pos */  <role8, t21, role22, t31, role25>
+    /* 117 XX3Pos */  <role8, t33, role22, t32, role25>
+    /* 118 XX3Pos */  <role8, t10, role22, t26, role25>
+    /* 119 XX3Pos */  <role8, t37, role21, t18, role25>
+    /* 120 XX3Pos */  <role8, t21, role24, t18, role25>
+    /* 121 XX3Pos */  <role8, t29, role24, t8, role25>
+    /* 122 XX3Pos */  <role8, t8, role24, t2, role25>
+    /* 123 XX3Pos */  <role8, t10, role23, t7, role25>
+    /* 124 XX3Pos */  <role8, t1, role23, t8, role25>
+    /* 125 XX3Pos */  <role8, t13, role8, t38, role25>
+    /* 126 XX3Pos */  <role8, t28, role8, t28, role25>
+    /* 127 XX3Pos */  <role8, t23, role8, t40, role25>
+    /* 128 XX3Pos */  <role8, t1, role12, t20, role25>
+    /* 129 XX3Pos */  <role8, t33, role16, t23, role26>
+    /* 130 XX3Pos */  <role8, t16, role16, t40, role26>
+    /* 131 XX3Pos */  <role22, t28, role2, t7, role13>
+    /* 132 XX3Pos */  <role22, t31, role2, t3, role13>
+    /* 133 XX3Pos */  <role22, t40, role2, t18, role13>
+    /* 134 XX3Pos */  <role22, t12, role4, t33, role13>
+    /* 135 XX3Pos */  <role22, t19, role4, t9, role13>
+    /* 136 XX3Pos */  <role22, t7, role6, t33, role13>
+    /* 137 XX3Pos */  <role22, t38, role7, t4, role13>
+    /* 138 XX3Pos */  <role22, t34, role7, t38, role13>
+    /* 139 XX3Pos */  <role22, t30, role7, t26, role13>
+    /* 140 XX3Pos */  <role22, t24, role7, t6, role13>
+    /* 141 XX3Pos */  <role22, t20, role7, t2, role13>
+    /* 142 XX3Pos */  <role22, t12, role7, t1, role13>
+    /* 143 XX3Pos */  <role22, t40, role7, t37, role13>
+    /* 144 XX3Pos */  <role22, t34, role8, t31, role13>
+    /* 145 XX3Pos */  <role22, t33, role9, t25, role13>
+    /* 146 XX3Pos */  <role22, t27, role9, t7, role13>
+    /* 147 XX3Pos */  <role22, t29, role9, t30, role13>
+    /* 148 XX3Pos */  <role22, t35, role9, t6, role13>
+    /* 149 XX3Pos */  <role22, t30, role9, t24, role13>
+    /* 150 XX3Pos */  <role22, t6, role12, t27, role13>
+    /* 151 XX3Pos */  <role22, t36, role22, t13, role13>
+    /* 152 XX3Pos */  <role22, t24, role22, t33, role13>
+    /* 153 XX3Pos */  <role22, t25, role22, t39, role13>
+    /* 154 XX3Pos */  <role22, t27, role21, t11, role13>
+    /* 155 XX3Pos */  <role22, t20, role24, t17, role13>
+    /* 156 XX3Pos */  <role22, t40, role24, t5, role13>
+    /* 157 XX4Mix */  <role22, t20, role23 & NOT ~ role6 & NOT ~ role8 & NOT ~ role22, t13, role24>
+    /* 158 XX4Mix */  <role24, t24, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t3, role6>
+    /* 159 XX4Mix */  <role24, t4, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t17, role6>
+    /* 160 XX4Mix */  <role24, t26, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t20, role6>
+    /* 161 XX4Mix */  <role24, t15, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t23, role6>
+    /* 162 XX4Mix */  <role24, t31, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t8, role6>
+    /* 163 XX4Mix */  <role24, t32, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t15, role6>
+    /* 164 XX4Mix */  <role24, t28, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t24, role6>
+    /* 165 XX4Mix */  <role24, t10, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t32, role6>
+    /* 166 XX4Mix */  <role6, t14, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t40, role8>
+    /* 167 XX4Mix */  <role6, t21, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t25, role8>
+    /* 168 XX4Mix */  <role6, t19, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t33, role8>
+}
+
+/* 
+ * Number of Rules       : 98
+ * Largest Precondition  : 4
+ * Largest Role Schedule : 1
+ * Startable Rules       : 44
+ * Truly Startable Rules : 13
+ */
+CanDisable {
+    /*  1 TA1Tru */  <TRUE, t23, TRUE, t38, role17>
+    /*  2 TA1Tru */  <TRUE, t32, TRUE, t1, role20>
+    /*  3 TA1Tru */  <TRUE, t1, TRUE, t5, role20>
+    /*  4 TA1Tru */  <TRUE, t28, TRUE, t22, role5>
+    /*  5 TA1Tru */  <TRUE, t40, TRUE, t34, role11>
+    /*  6 TA1Tru */  <TRUE, t31, TRUE, t31, role26>
+    /*  7 TA1Tru */  <TRUE, t25, TRUE, t34, role21>
+    /*  8 TA1Tru */  <TRUE, t16, TRUE, t24, role3>
+    /*  9 TA1Tru */  <TRUE, t13, TRUE, t35, role8>
+    /* 10 TA1Tru */  <TRUE, t36, TRUE, t33, role23>
+    /* 11 TA1Tru */  <TRUE, t4, TRUE, t16, role3>
+    /* 12 TA1Tru */  <TRUE, t36, TRUE, t11, role3>
+    /* 13 TA1Tru */  <TRUE, t2, TRUE, t12, role4>
+    /* 14 XA3Pos */  <TRUE, t11, role23, t33, role10>
+    /* 15 XA3Pos */  <TRUE, t17, role23, t19, role10>
+    /* 16 XA3Pos */  <TRUE, t30, role22, t30, role11>
+    /* 17 XA3Pos */  <TRUE, t6, role6, t13, role11>
+    /* 18 XA3Pos */  <TRUE, t26, role22, t8, role25>
+    /* 19 XA3Pos */  <TRUE, t3, role23, t23, role25>
+    /* 20 XA3Pos */  <TRUE, t17, role12, t1, role25>
+    /* 21 XA3Pos */  <TRUE, t39, role2, t24, role13>
+    /* 22 XA3Pos */  <TRUE, t36, role7, t36, role13>
+    /* 23 XA3Pos */  <TRUE, t26, role7, t3, role13>
+    /* 24 XA3Pos */  <TRUE, t11, role8, t17, role13>
+    /* 25 XA4Mix */  <TRUE, t30, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t21, role6>
+    /* 26 XA4Mix */  <TRUE, t26, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t10, role8>
+    /* 27 XX1Tru */  <role8, t24, TRUE, t21, role30>
+    /* 28 XX1Tru */  <role8, t16, TRUE, t34, role16>
+    /* 29 XX1Tru */  <role8, t13, TRUE, t12, role18>
+    /* 30 XX1Tru */  <role8, t23, TRUE, t6, role18>
+    /* 31 XX1Tru */  <role19, t4, TRUE, t2, role20>
+    /* 32 XX1Tru */  <role19, t37, TRUE, t39, role20>
+    /* 33 XX1Tru */  <role6, t40, TRUE, t21, role5>
+    /* 34 XX1Tru */  <role8, t17, TRUE, t17, role15>
+    /* 35 XX1Tru */  <role8, t24, TRUE, t5, role15>
+    /* 36 XX1Tru */  <role8, t18, TRUE, t32, role15>
+    /* 37 XX1Tru */  <role8, t27, TRUE, t29, role16>
+    /* 38 XX1Tru */  <role8, t3, TRUE, t36, role11>
+    /* 39 XX1Tru */  <role8, t13, TRUE, t21, role25>
+    /* 40 XX1Tru */  <role8, t21, TRUE, t20, role26>
+    /* 41 XX1Tru */  <role8, t23, TRUE, t15, role26>
+    /* 42 XX1Tru */  <role8, t26, TRUE, t5, role26>
+    /* 43 XX1Tru */  <role22, t14, TRUE, t11, role28>
+    /* 44 XX1Tru */  <role22, t26, TRUE, t15, role21>
+    /* 45 XX1Tru */  <role22, t29, TRUE, t1, role3>
+    /* 46 XX1Tru */  <role22, t23, TRUE, t14, role4>
+    /* 47 XX1Tru */  <role22, t26, TRUE, t35, role13>
+    /* 48 XX1Tru */  <role22, t14, TRUE, t3, role13>
+    /* 49 XX1Tru */  <role22, t2, TRUE, t13, role24>
+    /* 50 XX1Tru */  <role24, t13, TRUE, t25, role6>
+    /* 51 XX1Tru */  <role24, t4, TRUE, t26, role6>
+    /* 52 XX1Tru */  <role22, t35, TRUE, t1, role3>
+    /* 53 XX1Tru */  <role22, t29, TRUE, t8, role3>
+    /* 54 XX1Tru */  <role22, t30, TRUE, t24, role3>
+    /* 55 XX1Tru */  <role22, t23, TRUE, t28, role3>
+    /* 56 XX1Tru */  <role22, t32, TRUE, t23, role4>
+    /* 57 XX1Tru */  <role22, t21, TRUE, t8, role28>
+    /* 58 XX3Pos */  <role8, t10, role23, t30, role10>
+    /* 59 XX3Pos */  <role8, t18, role28, t31, role10>
+    /* 60 XX3Pos */  <role8, t12, role3, t23, role11>
+    /* 61 XX3Pos */  <role8, t17, role4, t3, role11>
+    /* 62 XX3Pos */  <role8, t33, role6, t31, role11>
+    /* 63 XX3Pos */  <role8, t34, role23, t40, role11>
+    /* 64 XX3Pos */  <role8, t4, role23, t37, role11>
+    /* 65 XX3Pos */  <role8, t39, role12, t1, role11>
+    /* 66 XX3Pos */  <role8, t32, role12, t18, role11>
+    /* 67 XX3Pos */  <role8, t27, role22, t29, role25>
+    /* 68 XX3Pos */  <role8, t11, role22, t36, role25>
+    /* 69 XX3Pos */  <role8, t22, role24, t3, role25>
+    /* 70 XX3Pos */  <role8, t11, role24, t26, role25>
+    /* 71 XX3Pos */  <role8, t20, role8, t37, role25>
+    /* 72 XX3Pos */  <role8, t14, role8, t39, role25>
+    /* 73 XX3Pos */  <role8, t20, role12, t3, role25>
+    /* 74 XX3Pos */  <role22, t12, role3, t5, role13>
+    /* 75 XX3Pos */  <role22, t20, role4, t11, role13>
+    /* 76 XX3Pos */  <role22, t21, role4, t31, role13>
+    /* 77 XX3Pos */  <role22, t3, role6, t20, role13>
+    /* 78 XX3Pos */  <role22, t34, role6, t25, role13>
+    /* 79 XX3Pos */  <role22, t4, role6, t36, role13>
+    /* 80 XX3Pos */  <role22, t8, role6, t2, role13>
+    /* 81 XX3Pos */  <role22, t25, role6, t39, role13>
+    /* 82 XX3Pos */  <role22, t37, role6, t19, role13>
+    /* 83 XX3Pos */  <role22, t33, role7, t29, role13>
+    /* 84 XX3Pos */  <role22, t7, role8, t26, role13>
+    /* 85 XX3Pos */  <role22, t23, role8, t35, role13>
+    /* 86 XX3Pos */  <role22, t10, role9, t4, role13>
+    /* 87 XX3Pos */  <role22, t4, role12, t34, role13>
+    /* 88 XX3Pos */  <role22, t19, role22, t5, role13>
+    /* 89 XX3Pos */  <role22, t16, role22, t14, role13>
+    /* 90 XX3Pos */  <role22, t26, role22, t3, role13>
+    /* 91 XX3Pos */  <role22, t11, role21, t10, role13>
+    /* 92 XX3Pos */  <role22, t5, role23, t18, role13>
+    /* 93 XX3Pos */  <role22, t6, role28, t16, role13>
+    /* 94 XX4Mix */  <role22, t23, role23 & NOT ~ role6 & NOT ~ role8 & NOT ~ role22, t12, role24>
+    /* 95 XX4Mix */  <role24, t16, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t30, role6>
+    /* 96 XX4Mix */  <role24, t14, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t27, role6>
+    /* 97 XX4Mix */  <role24, t18, role23 & NOT ~ role8 & NOT ~ role22 & NOT ~ role24, t29, role6>
+    /* 98 XX4Mix */  <role6, t34, role23 & NOT ~ role6 & NOT ~ role22 & NOT ~ role24, t8, role8>
+}

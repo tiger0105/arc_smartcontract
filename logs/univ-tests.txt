@@ -1,0 +1,107 @@
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle exec univ\AGTUniv01.js
+Using network 'development'.
+
+Deployed Gas: 4962378
+[createRoles] Total Gas used: 1484791
+[createTimeslots] Total Gas used: 329513
+[createCARules] Total Gas used: 27551467
+[createCRRules] Total Gas used: 7759640
+[createCERules] Total Gas used: 4425484
+[createCDRules] Total Gas used: 2023549
+Total Gas: 48536822
+All Gas: [
+  4962378,  1484791,
+   329513, 27551467,
+  7759640,  4425484,
+  2023549
+]
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle exec univ\AGTUniv02.js
+Using network 'development'.
+
+Deployed Gas: 4962378
+[createRoles] Total Gas used: 1638400
+[createTimeslots] Total Gas used: 329513
+[createCARules] Total Gas used: 29132961
+[createCRRules] Total Gas used: 4912376
+[createCERules] Total Gas used: 5461363
+[createCDRules] Total Gas used: 2375119
+Total Gas: 48812110
+All Gas: [
+  4962378,  1638400,
+   329513, 29132961,
+  4912376,  5461363,
+  2375119
+]
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle exec univ\AGTUniv03.js
+Using network 'development'.
+
+Deployed Gas: 4962378
+[createRoles] Total Gas used: 1535994
+[createTimeslots] Total Gas used: 747983
+[createCARules] Total Gas used: 65190556
+[createCRRules] Total Gas used: 21358546
+[createCERules] Total Gas used: 1893424
+[createCDRules] Total Gas used: 853005
+Total Gas: 96541886
+All Gas: [
+   4962378,  1535994,
+    747983, 65190556,
+  21358546,  1893424,
+    853005
+]
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle exec univ\AGTUniv04.js
+Using network 'development'.
+
+Deployed Gas: 4962378
+[createRoles] Total Gas used: 1638400
+[createTimeslots] Total Gas used: 678238
+[createCARules] Total Gas used: 62361959
+[createCRRules] Total Gas used: 6602206
+[createCERules] Total Gas used: 18655255
+[createCDRules] Total Gas used: 9868180
+Total Gas: 104766616
+All Gas: [
+  4962378,  1638400,
+   678238, 62361959,
+  6602206, 18655255,
+  9868180
+]
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle exec univ\AGTUniv05.js
+Using network 'development'.
+
+Deployed Gas: 4962378
+[createRoles] Total Gas used: 1638400
+[createTimeslots] Total Gas used: 1375688
+[createCARules] Total Gas used: 81100561
+[createCRRules] Total Gas used: 9276562
+[createCERules] Total Gas used: 6536028
+[createCDRules] Total Gas used: 3087858
+Total Gas: 107977475
+All Gas: [
+  4962378,  1638400,
+  1375688, 81100561,
+  9276562,  6536028,
+  3087858
+]
+
+D:\Work\Masters_Phd\workspace (GradSchool)\atrbac-smart-contract>truffle exec univ\AGTUniv06.js
+Using network 'development'.
+
+Deployed Gas: 4962378
+[createRoles] Total Gas used: 1484791
+[createTimeslots] Total Gas used: 1375688
+[createCARules] Total Gas used: 82585117
+[createCRRules] Total Gas used: 9138660
+[createCERules] Total Gas used: 10706580
+[createCDRules] Total Gas used: 6422213
+Total Gas: 116675427
+All Gas: [
+  4962378,  1484791,
+  1375688, 82585117,
+  9138660, 10706580,
+  6422213
+]

@@ -1,0 +1,170 @@
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv01.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 624680
+[createTimeslots] Total Gas used: 106708
+[createCARules] Total Gas used: 3073256
+[createCRRules] Total Gas used: 1115540
+[createCERules] Total Gas used: 544572
+[createCDRules] Total Gas used: 249264
+Total Gas: 10680294
+All Gas: [
+  4966274,  624680,
+   106708, 3073256,
+  1115540,  544572,
+   249264
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv02.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 689312
+[createTimeslots] Total Gas used: 106708
+[createCARules] Total Gas used: 3410640
+[createCRRules] Total Gas used: 713912
+[createCERules] Total Gas used: 652032
+[createCDRules] Total Gas used: 292784
+Total Gas: 10831662
+All Gas: [
+  4966274,  689312,
+   106708, 3410640,
+   713912,  652032,
+   292784
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv03.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 646224
+[createTimeslots] Total Gas used: 234772
+[createCARules] Total Gas used: 7516544
+[createCRRules] Total Gas used: 3101068
+[createCERules] Total Gas used: 188696
+[createCDRules] Total Gas used: 113236
+Total Gas: 16766814
+All Gas: [
+  4966274,  646224,
+   234772, 7516544,
+  3101068,  188696,
+   113236
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv04.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 689312
+[createTimeslots] Total Gas used: 213428
+[createCARules] Total Gas used: 6939936
+[createCRRules] Total Gas used: 959320
+[createCERules] Total Gas used: 2165608
+[createCDRules] Total Gas used: 1114020
+Total Gas: 17047898
+All Gas: [
+  4966274,  689312,
+   213428, 6939936,
+   959320, 2165608,
+  1114020
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv05.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 689312
+[createTimeslots] Total Gas used: 426868
+[createCARules] Total Gas used: 9572900
+[createCRRules] Total Gas used: 1360840
+[createCERules] Total Gas used: 899172
+[createCDRules] Total Gas used: 406680
+Total Gas: 18322046
+All Gas: [
+  4966274,  689312,
+   426868, 9572900,
+  1360840,  899172,
+   406680
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv06.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 624680
+[createTimeslots] Total Gas used: 426868
+[createCARules] Total Gas used: 9256380
+[createCRRules] Total Gas used: 1338540
+[createCERules] Total Gas used: 1328928
+[createCDRules] Total Gas used: 809760
+Total Gas: 18751430
+All Gas: [
+  4966274,  624680,
+   426868, 9256380,
+  1338540, 1328928,
+   809760
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv07.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 667768
+[createTimeslots] Total Gas used: 640308
+[createCARules] Total Gas used: 12211012
+[createCRRules] Total Gas used: 4417344
+[createCERules] Total Gas used: 708324
+[createCDRules] Total Gas used: 386048
+Total Gas: 23997078
+All Gas: [
+  4966274,   667768,
+   640308, 12211012,
+  4417344,   708324,
+   386048
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv08.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 624692
+[createTimeslots] Total Gas used: 640308
+[createCARules] Total Gas used: 13982488
+[createCRRules] Total Gas used: 2744124
+[createCERules] Total Gas used: 912260
+[createCDRules] Total Gas used: 456504
+Total Gas: 24326650
+All Gas: [
+  4966274,   624692,
+   640308, 13982488,
+  2744124,   912260,
+   456504
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv09.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 667768
+[createTimeslots] Total Gas used: 853748
+[createCARules] Total Gas used: 19271684
+[createCRRules] Total Gas used: 736236
+[createCERules] Total Gas used: 784716
+[createCDRules] Total Gas used: 452448
+Total Gas: 27732874
+All Gas: [
+  4966274,   667768,
+   853748, 19271684,
+   736236,   784716,
+   452448
+]
+Using network 'development'.
+
+Running D:/Work/Masters_Phd/workspace (GradSchool)/atrbac-policy-to-solidity-smart-contract/data/mohawkT/ranise/testsuitec/univ/AGTUniv10.mohawkT
+Deployed Gas: 4966274
+[createRoles] Total Gas used: 646236
+[createTimeslots] Total Gas used: 853748
+[createCARules] Total Gas used: 16228328
+[createCRRules] Total Gas used: 312344
+[createCERules] Total Gas used: 3782176
+[createCDRules] Total Gas used: 2205308
+Total Gas: 28994414
+All Gas: [
+  4966274,   646236,
+   853748, 16228328,
+   312344,  3782176,
+  2205308
+]
